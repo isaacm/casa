@@ -43,7 +43,7 @@
     "stimulus-rails-nested-form": "^4.1.0",
     "stimulus-reveal-controller": "^4.1.0",
     "strftime": "^0.10.2",
-    "sweetalert2": "^11.3.5",
+    "sweetalert2": "^11.7.31",
     "trix": "^2.0.6",
     "turbolinks": "^5.2.0"
   },
