@@ -78,7 +78,7 @@ GEM
       minitest (>= 5.1, < 6)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
-    addressable (2.8.9)
+    addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
     after_party (2.1.0)
     amazing_print (1.8.1)
@@ -191,8 +191,8 @@ GEM
       request_store (>= 1.0)
       ruby2_keywords
     drb (2.2.3)
-    email_spec (2.3.0)
-      htmlentities (~> 4.3.3)
+    email_spec (2.3.1)
+      htmlentities (~> 4.3)
       launchy (>= 2.1, < 4.0)
       mail (~> 2.7)
     erb (6.0.2)
@@ -274,7 +274,7 @@ GEM
     groupdate (6.7.0)
       activesupport (>= 7.1)
     hashdiff (1.2.1)
-    htmlentities (4.3.4)
+    htmlentities (4.4.2)
     httparty (0.24.2)
       csv
       mini_mime (>= 1.0.0)
@@ -302,9 +302,10 @@ GEM
     jwt (3.1.2)
       base64
     language_server-protocol (3.17.0.5)
-    launchy (3.0.1)
+    launchy (3.1.1)
       addressable (~> 2.8)
       childprocess (~> 5.0)
+      logger (~> 1.6)
     letter_opener (1.10.0)
       launchy (>= 2.2, < 4)
     lint_roller (1.1.0)
@@ -317,7 +318,8 @@ GEM
     loofah (2.25.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    mail (2.8.1)
+    mail (2.9.0)
+      logger
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
@@ -651,7 +653,7 @@ GEM
     strong_migrations (2.5.2)
       activerecord (>= 7.1)
     thor (1.5.0)
-    timeout (0.6.0)
+    timeout (0.6.1)
     traceroute (0.8.1)
       rails (>= 3.0.0)
     tsort (0.2.0)
