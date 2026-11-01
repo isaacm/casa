@@ -56,7 +56,7 @@ class ChecklistItemsController < ApplicationController
   end
 
   def set_checklist_item
-    @checklist_item ||= ChecklistItem.find(params[:id])
+    @checklist_item ||= @hearing_type.checklist_items.find(params[:id])
   end
 
   def checklist_item_params
